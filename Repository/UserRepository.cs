@@ -44,10 +44,15 @@ namespace PSDProject.Repository
             db.SaveChanges();
         }
 
-        public static void DeleteUser(int id)
+        public static void DeleteUser(string name)
         {
-            db.MsUsers.Remove(FindByID(id));
+            db.MsUsers.Remove(FindByName(name));
             db.SaveChanges();
+        }
+
+        public static List<MsUser> GetUsers() 
+        {
+            return db.MsUsers.ToList();
         }
     }
 }

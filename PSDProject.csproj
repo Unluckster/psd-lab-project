@@ -98,8 +98,14 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\UserController.cs" />
+    <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\StationeryFactory.cs" />
+    <Compile Include="Factory\TDFactory.cs" />
+    <Compile Include="Factory\THFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
+    <Compile Include="Handler\StationeryHandler.cs" />
+    <Compile Include="Handler\UserHandler.cs" />
     <Compile Include="Master\AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,9 +157,13 @@
     <Compile Include="Model\TransactionHeader.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Module\Json.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CartRepository.cs" />
     <Compile Include="Repository\DatabaseSingleton.cs" />
     <Compile Include="Repository\StationeryRepository.cs" />
+    <Compile Include="Repository\TDRepository.cs" />
+    <Compile Include="Repository\THRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="View\RegisterPage.aspx.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
