@@ -32,5 +32,10 @@ namespace PSDProject.View
                 lbl_error.Text = "Invalid Credentials";
             }
         }
+
+        protected void Register_Button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("RegisterPage.aspx");
+        }
     }
 }

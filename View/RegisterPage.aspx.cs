@@ -29,5 +29,10 @@ namespace PSDProject.View
                 UserRepository.CreateUser(name, gender, dob, phone, address, password, role);
             }
         }
+
+        protected void Login_Button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

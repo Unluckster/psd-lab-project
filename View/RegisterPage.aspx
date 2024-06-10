@@ -36,6 +36,6 @@
     </div>
 
     <asp:Button ID="Register_Button" runat="server" Text="Register" OnClick="Register_Button_Click" />
-
+    <asp:Button ID="Login_Button" runat="server" Text="Login" OnClick="Login_Button_Click" />
 </asp:Content>
 
