@@ -25,6 +25,7 @@ The following is the Entity Relationship Diagram for RAiso’s Database:
 <p align="center">Figure 1. Entity Relationship Diagram of RAiso’s Database</p>
 
 There are three types of user's roles in this website: Admin, Customer, and Guest (non-logged-in user). Below are the minimum pages you need to create for each role:
+
 •	Admin
 - View Stationeries
 -	Insert Stationery
